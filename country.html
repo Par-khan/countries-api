@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="country.css">
+    <script src="country.js" defer></script>
+</head>
+
+<body>
+   
+    <header class="header-container">
+        <div class="header-content">
+            <p class="title"><a href="/">Where in the world?</a></p>
+            <p class="theme-changer" style="cursor: pointer;"><i class="fa-regular fa-moon"></i>&nbsp;Dark Mode</p>
+            <p class="theme-changer-light" style="cursor: pointer;"><i class="fa-regular fa-sun"></i>&nbsp;Light Mode</p>
+        </div>
+    </header>
+    <main>
+    <div class="country-details-container">
+        <div class="button">
+            <span class="back-button" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp; Back</span>
+        </div>
+        <div class="country-details">
+            <img src="" alt="">
+            <div class="details-text-container">
+                <h1>Iceland</h1>
+                <div class="detail-text">
+                    <p><b>Native Name: </b><span class="native-name"></span></p>
+                    <p><b>Population: </b><span class="Population"></span></p>
+                    <p><b>Region: </b><span class="Region"></span></p>
+                    <p><b>Sub Region: </b><span class="sub-Region"></span></p>
+                    <p><b>Capital:</b><span class="Capital"></span></p>
+                    <p><b>Top Level Domain: </b><span class="topLevelDomain"></span></p>
+                    <p><b>Currencies: </b><span class="Currencies"></span></p>
+                    <p><b>Language: </b><span class="Language"></span></p>
+                </div>
+                <div class="border-countries">
+                    <b>Border Countries: </b>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+   
+</body>
+
+</html>
